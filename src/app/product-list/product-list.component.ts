@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
-//import { products } from '../products';
-
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { Observable } from 'rxjs';
-
 
 @Component({
   selector: 'app-product-list',
